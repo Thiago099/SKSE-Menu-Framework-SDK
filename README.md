@@ -18,7 +18,7 @@ SKYRIM_MODS_FOLDER
 
 IMGUI_LIB_FOLDER
 
-[How to set up envioriment variables](https://github.com/Thiago099/SKSEMenuFrameworkTemplate/blob/main/README.md#how-do-i-set-up-environment-variables)
+[How to set up envioriment variables](https://gist.github.com/Thiago099/b45ec7832fb754325b29a61006bcd10c)
 
 
 ```cmake
@@ -35,7 +35,6 @@ function(addMenuFramework MENU_FRAMEWORK_FOLDER IMGUI_FOLDER)
     else()
         set(PROJECT_SUFFIX "")
     endif()
-
 
     set(ImGui_DIR "${IMGUI_INSTALL_DIR}/lib/cmake")
     list(APPEND CMAKE_PREFIX_PATH ${ImGui_DIR})
