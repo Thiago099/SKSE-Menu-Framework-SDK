@@ -18,7 +18,7 @@ SKYRIM_MODS_FOLDER
 
 IMGUI_LIB_FOLDER
 
-[How to set up envioriment variables](https://github.com/Thiago099/SKSEMenuFrameworkTemplate/blob/main/README.md#how-do-i-set-up-environment-variables)
+[How to set up envioriment variables](https://gist.github.com/Thiago099/b45ec7832fb754325b29a61006bcd10c)
 
 
 ```cmake
