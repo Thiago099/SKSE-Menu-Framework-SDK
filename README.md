@@ -12,9 +12,13 @@ Clone [this](https://github.com/Thiago099/SKSEMenuFrameworkTemplate) repository 
 
 Add the following code to your cmake lists, and either update the `addMenuFramework("$ENV{SKYRIM_MODS_FOLDER}" "$ENV{IMGUI_LIB_FOLDER}")` function call with your paths, or set up these two environment variables:
 
-SKYRIM_MODS_FOLDER
+- IMGUI_LIB_FOLDER
 
-IMGUI_LIB_FOLDER
+  Clone this  repository, to somewhere safe and adds its ImGui folder path to this environment variable on Windows.
+
+- SKYRIM_MODS_FOLDER
+
+  The skyrim mods folder is required to find the Menu framework library
 
 [How to set up envioriment variables](https://gist.github.com/Thiago099/b45ec7832fb754325b29a61006bcd10c)
 
