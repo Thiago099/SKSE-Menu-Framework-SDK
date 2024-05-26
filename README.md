@@ -36,7 +36,6 @@ function(addMenuFramework MENU_FRAMEWORK_FOLDER IMGUI_FOLDER)
         set(PROJECT_SUFFIX "")
     endif()
 
-
     set(ImGui_DIR "${IMGUI_INSTALL_DIR}/lib/cmake")
     list(APPEND CMAKE_PREFIX_PATH ${ImGui_DIR})
     find_package(ImGui CONFIG REQUIRED)
