@@ -1,5 +1,7 @@
 ## Instalation
 
+The original mod is required so you can build on release setting
+
 Install the part 1 with your favorite mod manager
 
 Put the contents of the part two on your skyrim root folder
