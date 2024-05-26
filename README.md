@@ -6,6 +6,10 @@ Install the part 1 with your favorite mod manager
 
 Put the contents of the part two on your skyrim root folder
 
+## Using this mod's template
+
+Clone [this](https://github.com/Thiago099/SKSEMenuFrameworkTemplate) repository and follow the instructions on the readme.md
+
 ## Configuring existing project
 
 Add the following code to your cmake lists, and either update the `addMenuFramework("$ENV{SKYRIM_MODS_FOLDER}" "$ENV{IMGUI_LIB_FOLDER}")` function call with your paths, or set up these two environment variables:
