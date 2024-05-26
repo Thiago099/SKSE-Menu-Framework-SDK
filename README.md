@@ -64,6 +64,11 @@ addMenuFramework("$ENV{SKYRIM_MODS_FOLDER}" "$ENV{IMGUI_LIB_FOLDER}")
 ```
 ## Usage
 
+Import imgui on your header file
+```cpp
+#include <imgui/imgui.h>
+```
+
 The full code for these examples is avaliable [here](https://github.com/Thiago099/SKSE-Menu-Framework-Template)
 
 Define the render function for your menu entry. Here is an example:
