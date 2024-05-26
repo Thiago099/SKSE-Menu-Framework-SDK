@@ -64,7 +64,7 @@ addMenuFramework("$ENV{SKYRIM_MODS_FOLDER}" "$ENV{IMGUI_LIB_FOLDER}")
 ```
 ## Usage
 
-First you need to define the render function for your menu entry. Here is an example:
+Define the render function for your menu entry. Here is an example:
 
 ```cpp
 void __stdcall UI::Example1::Render() {
@@ -87,12 +87,13 @@ void __stdcall UI::Example1::Render() {
 }
 ```
 
-First, you need to import the SKSEMenuFramework.h into your header file, i reccomend you creating a UI.cpp/UI.h 
+Then, import the SKSEMenuFramework.h into your header file, i reccomend you creating a UI.cpp/UI.h 
 
 ```cpp
 #include "SKSEMenuFramework.h"
 ```
-Then you should create a function in order to register your menu entries:
+
+You should create a function in order to register your menu entries:
 
 Before registering any entries, you should choose a section for your menu to be in. It is recommended that you use your mod name as the section name to keep things organized
 
@@ -100,7 +101,7 @@ Before registering any entries, you should choose a section for your menu to be 
 SKSEMenuFramework::SetSection("<menu section name>");
 ```
 
-Then you can register your menu entry, it will be a page on the Mod Control Panel
+Register your menu entry, it will be a page on the Mod Control Panel
 
 ```cpp
 SKSEMenuFramework::AddSectionItem("Add Item", Example1::Render);
