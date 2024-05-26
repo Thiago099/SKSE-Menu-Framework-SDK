@@ -14,7 +14,7 @@ Add the following code to your cmake lists, and either update the `addMenuFramew
 
 - IMGUI_LIB_FOLDER
 
-  Clone this  Repository, to somewhere safe and adds its ImGui folder path to this environment variable on Windows.
+  Clone this  repository, to somewhere safe and adds its ImGui folder path to this environment variable on Windows.
 
 - SKYRIM_MODS_FOLDER
 
