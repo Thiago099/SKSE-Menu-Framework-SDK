@@ -66,7 +66,7 @@ addMenuFramework("$ENV{SKYRIM_MODS_FOLDER}" "$ENV{IMGUI_LIB_FOLDER}")
 
 The full code for these examples is avaliable [here](https://github.com/Thiago099/SKSE-Menu-Framework-Template)
 
-Import imgui on your header file
+Import imgui into your header file
 ```cpp
 #include <imgui/imgui.h>
 ```
