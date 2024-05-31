@@ -4,6 +4,8 @@ Install both mods from the `Mods` folder with your favorite mod manager, but onl
 
 Put the contents of the part two on your skyrim root folder
 
+For a development environment, you need both imgui.dll and imguid.dll in your Skyrim root folder.
+
 ## Using this mod's template
 
 Clone [this](https://github.com/Thiago099/SKSEMenuFrameworkTemplate) repository and follow the instructions on the readme.md
