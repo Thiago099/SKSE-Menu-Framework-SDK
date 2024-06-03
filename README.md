@@ -155,7 +155,8 @@ Here is what this example will look like:
 
 
 You can browse icons and get the Unicode IDs from the [Font Awesome](https://fontawesome.com/search?o=r&m=free) website
-![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/b6c4221b-4358-4a1e-b11b-58ab6d7c39d0)
+![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/ec5f14f1-5658-4f6e-8e60-2342f47f078e)
+
 
 
 ## Creating your own windows
