@@ -115,7 +115,7 @@ Register your menu entry, it will be a page on the Mod Control Panel
 ```cpp
 SKSEMenuFramework::AddSectionItem("Add Item", Example1::Render);
 ```
-Here is what this example will look like:
+Here is what this example will look like (The style of the picture is outdated):
 
 ![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/8ebcd191-55a3-498b-bf36-0ca7337eff3a)
 
@@ -149,6 +149,10 @@ void __stdcall UI::Example4::Render() {
     FontAwesome::Pop();
 }
 ```
+Here is what this example will look like:
+
+![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/c3b7a913-fbb9-41be-ae38-d4c9efa8e2b3)
+
 
 You can browse icons and get the Unicode IDs from the [Font Awesome](https://fontawesome.com/search?o=r&m=free) website
 ![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/b6c4221b-4358-4a1e-b11b-58ab6d7c39d0)
