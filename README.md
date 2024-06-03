@@ -119,6 +119,41 @@ Here is what this example will look like:
 
 ![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/8ebcd191-55a3-498b-bf36-0ca7337eff3a)
 
+## Font Awesome
+
+Header file
+```cpp
+namespace Example4 {
+	inline std::string TitleText = "This is an " + FontAwesome::UnicodeToUtf8(0xf2b4) + " Font Awesome usage example";
+	inline std::string Button1Text = FontAwesome::UnicodeToUtf8(0xf0e9) + " Umbrella";
+	inline std::string Button2Text = FontAwesome::UnicodeToUtf8(0xf06e) + " Eye";
+void __stdcall Render();
+}
+```
+cpp file
+
+```cpp
+void __stdcall UI::Example4::Render() {
+    FontAwesome::PushBrands();
+    ImGui::Text(TitleText.c_str());
+    FontAwesome::Pop();
+
+    FontAwesome::PushSolid();
+    ImGui::Button(Button1Text.c_str());
+    FontAwesome::Pop();
+
+    ImGui::SameLine();
+
+    FontAwesome::PushRegular();
+    ImGui::Button(Button2Text.c_str());
+    FontAwesome::Pop();
+}
+```
+
+You can brose icons and get the ids from the [Font Awesome](https://fontawesome.com/search?o=r&m=free) website
+![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/b6c4221b-4358-4a1e-b11b-58ab6d7c39d0)
+
+
 ## Creating your own windows
 
 Define your window render function
