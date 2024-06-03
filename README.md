@@ -119,7 +119,7 @@ Here is what this example will look like:
 
 ![image](https://github.com/Thiago099/SKSE-Menu-Framework-SDK/assets/66787043/8ebcd191-55a3-498b-bf36-0ca7337eff3a)
 
-## Fontawesome
+## Font Awesome
 
 Header file
 ```cpp
