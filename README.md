@@ -1,6 +1,6 @@
 ## Instalation
 
-Install both mods from the `Mods` folder with your favorite mod manager, but only enable the right one for the build type you are doing. The DEV version is only for debug build, using the wrong version will probably cause a ctd when your mod menu open.
+Install both SKSE Menu Framework and SKSE Menu Framework DEV, from the nexus page, but only enable the right one for the build type you are doing. The DEV version is only for debug build, using the wrong version will probably cause a ctd when your mod menu opens.
 
 Put the contents of the part two on your skyrim root folder
 
